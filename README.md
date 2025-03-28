@@ -9,7 +9,6 @@
 | **Test Steps**      | 1. Open Facebook <br> 2. Enter valid credentials <br> 3. Click Login |
 | **Test Data**       | Email: testuser@fb.com <br> Password: Fb@1234 |
 | **Expected Result** | User is redirected to the homepage |
-| **Actual Result**   | (To be filled during execution)    |
 | **Status**          | Pass/Fail                         |
 | **Priority**        | High                              |
 | **Test Environment**| Windows 11, Chrome v100           |
