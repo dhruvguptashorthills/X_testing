@@ -15,8 +15,8 @@ def test_facebook_login():
         password_field = driver.find_element(By.ID, "pass")
         login_button = driver.find_element(By.NAME, "login") 
         
-        email_field.send_keys("testuser@fb.com")  
-        password_field.send_keys("Fb@1234")  
+        email_field.send_keys("Enter your email4")  
+        password_field.send_keys("Enter your password4")  
         
         # Step 3: Click on 'Login'
         login_button.click()
