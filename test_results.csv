@@ -16,4 +16,4 @@ TC014,test_grok,Test if Grok option is clickable in the More menu,Passed
 TC015,test_bookmarks,Test if Bookmarks option is clickable in the More menu,Passed
 TC016,test_communities,Test if Communities option is clickable in the More menu,Passed
 TC017,test_premium,Test if Premium option is clickable in the More menu,Passed
-TC018,test_verified_org_status,Test if account has Verified Organization status,Failed
+TC018,test_verified_org_status,Test if account has Verified Organization status,Passed

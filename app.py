@@ -7,10 +7,12 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 import csv
 import os
-# Test credentials
-USERNAME = "@DhruvGupta40568"
-PASSWORD = "FORtrialONLY"
+from dotenv import load_dotenv
+load_dotenv()
 
+# Test credentials
+USERNAME = os.getenv("X_USERNAME")
+PASSWORD = os.getenv("X_PASSWORD")
 
 
 # Result storage
