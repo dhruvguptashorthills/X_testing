@@ -60,6 +60,12 @@ This project is a Python-based automation framework for testing various function
 | TC004   | test_page_load_time          | Test if search page loads within acceptable time|
 | TC005   | test_post_tweet              | Test posting a tweet                            |
 | TC006   | test_follow_user             | Test following a user                           |
+| TC007   | test_tweet_character_limit   | Test posting a tweet exceeding character limit  |
+| TC008   | test_hashtag_search          | Test searching with hashtags                    |
+| TC009   | test_profile_not_found       | Test navigating to non-existent profile         |
+| TC010   | test_home_navigation         | Test navigation to Home page via nav bar        |
+|....  | ....    | .....   |
+
 
 ## Notes
 
