@@ -11,27 +11,7 @@ import os
 USERNAME = "@DhruvGupta40568"
 PASSWORD = "FORtrialONLY"
 
-# Test case metadata
-TEST_CASES = {
-    "test_search_functionality": {"id": "TC001", "description": "Test if search returns relevant results"},
-    "test_search_empty_results": {"id": "TC002", "description": "Test search with a nonsense term"},
-    "test_profile_navigation": {"id": "TC003", "description": "Test navigation to user profile"},
-    "test_page_load_time": {"id": "TC004", "description": "Test if search page loads within acceptable time"},
-    "test_post_tweet": {"id": "TC005", "description": "Test posting a tweet"},
-    "test_follow_user": {"id": "TC006", "description": "Test following a user"},
-    "test_tweet_character_limit": {"id": "TC007", "description": "Test posting a tweet exceeding character limit"},
-    "test_hashtag_search": {"id": "TC008", "description": "Test searching with hashtags"},
-    "test_profile_not_found": {"id": "TC009", "description": "Test navigating to non-existent profile"},
-    "test_home_navigation": {"id": "TC010", "description": "Test navigation to Home page via nav bar"},
-    "test_explore_navigation": {"id": "TC011", "description": "Test navigation to Explore page via nav bar"},
-    "test_notifications_navigation": {"id": "TC012", "description": "Test navigation to Notifications page via nav bar"},
-    "test_messages_navigation": {"id": "TC013", "description": "Test navigation to Messages page via nav bar"},
-    "test_grok": {"id": "TC014", "description": "Test if Grok option is clickable in the More menu"},
-    "test_bookmarks": {"id": "TC015", "description": "Test if Bookmarks option is clickable in the More menu"},
-    "test_communities": {"id": "TC016", "description": "Test if Communities option is clickable in the More menu"},
-    "test_premium": {"id": "TC017", "description": "Test if Premium option is clickable in the More menu"},
-    "test_verified_org_status": {"id": "TC018", "description": "Test if account has Verified Organization status"},
-}
+
 
 # Result storage
 results = []
