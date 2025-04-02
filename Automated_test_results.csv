@@ -17,3 +17,21 @@ TC015,test_bookmarks,Test if Bookmarks option is clickable in the More menu,Pass
 TC016,test_communities,Test if Communities option is clickable in the More menu,Passed
 TC017,test_premium,Test if Premium option is clickable in the More menu,Passed
 TC018,test_verified_org_status,Test if account has Verified Organization status,Passed
+TC001,test_search_functionality,Test if search returns relevant results,Passed
+TC002,test_search_empty_results,Test search with a nonsense term,Passed
+TC003,test_profile_navigation,Test navigation to user profile,Passed
+TC004,test_page_load_time,Test if search page loads within acceptable time,Passed
+TC005,test_post_tweet,Test posting a tweet,Passed
+TC006,test_follow_user,Test following a user,Passed
+TC007,test_tweet_character_limit,Test posting a tweet exceeding character limit,Passed
+TC008,test_hashtag_search,Test searching with hashtags,Passed
+TC009,test_profile_not_found,Test navigating to non-existent profile,Passed
+TC010,test_home_navigation,Test navigation to Home page via nav bar,Passed
+TC011,test_explore_navigation,Test navigation to Explore page via nav bar,Passed
+TC012,test_notifications_navigation,Test navigation to Notifications page via nav bar,Passed
+TC013,test_messages_navigation,Test navigation to Messages page via nav bar,Passed
+TC014,test_grok,Test if Grok option is clickable in the More menu,Passed
+TC015,test_bookmarks,Test if Bookmarks option is clickable in the More menu,Passed
+TC016,test_communities,Test if Communities option is clickable in the More menu,Passed
+TC017,test_premium,Test if Premium option is clickable in the More menu,Passed
+TC018,test_verified_org_status,Test if account has Verified Organization status,Failed

@@ -205,7 +205,7 @@ def log_result(test_id, test_name, description, outcome):
     print(f"Recorded result: {result}")  # Debug statement
 
     # Append result to CSV file immediately
-    csv_file = "test_results.csv"
+    csv_file = "Automated_test_results.csv"
     file_exists = os.path.isfile(csv_file)
     with open(csv_file, mode="a", newline="") as file:
         writer = csv.writer(file)
